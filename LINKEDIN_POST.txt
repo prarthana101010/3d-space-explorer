@@ -1,0 +1,17 @@
+🚀 New Project — NovaSpace: 3D Space Explorer
+
+I built an interactive space-themed website using HTML, CSS and JavaScript.
+
+✨ Highlights:
+• Interactive 3D-style planet
+• Planet selection with dynamic visuals
+• Mouse/touch drag interaction
+• Animated star background
+• Responsive design
+• Smooth UI animations
+
+This project helped me practice frontend development, JavaScript DOM manipulation, CSS animations and Canvas API.
+
+🔗 GitHub: Add your repository link here
+
+#WebDevelopment #JavaScript #HTML #CSS #FrontendDevelopment #GitHub #StudentDeveloper #Project

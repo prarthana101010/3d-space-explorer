@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaSpace — 3D Space Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="space"></canvas>
+
+  <header class="nav">
+    <a class="logo" href="#"><span>✦</span> NovaSpace</a>
+    <nav>
+      <a href="#explore">Explore</a>
+      <a href="#facts">Facts</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="nav-btn" id="randomBtn">Random Planet</button>
+  </header>
+
+  <main>
+    <section class="hero" id="explore">
+      <div class="hero-copy">
+        <p class="eyebrow">INTERACTIVE 3D EXPERIENCE</p>
+        <h1>Explore the<br><span>unseen.</span></h1>
+        <p class="intro">A small interactive journey through our cosmic neighborhood. Drag the planet, change worlds, and discover quick facts.</p>
+        <div class="actions">
+          <button class="primary" id="exploreBtn">Start Exploring <span>↗</span></button>
+          <a class="secondary" href="#facts">View facts</a>
+        </div>
+      </div>
+
+      <div class="planet-stage" aria-label="Interactive 3D planet">
+        <div class="glow"></div>
+        <div class="planet" id="planet">
+          <div class="planet-surface"></div>
+          <div class="cloud cloud-a"></div>
+          <div class="cloud cloud-b"></div>
+          <div class="ring"></div>
+          <div class="shine"></div>
+        </div>
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="planet-label"><span id="planetName">EARTH</span><small id="planetType">HOME WORLD</small></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>8</strong><span>Planets</span></div>
+      <div><strong>4.6B</strong><span>Years old</span></div>
+      <div><strong>1</strong><span>Known home</span></div>
+    </section>
+
+    <section class="facts" id="facts">
+      <div class="section-heading">
+        <p class="eyebrow">DISCOVER</p>
+        <h2>Choose a world.</h2>
+      </div>
+      <div class="planet-grid" id="planetGrid"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <p class="eyebrow">THE PROJECT</p>
+        <h2>Built to make<br>learning feel alive.</h2>
+      </div>
+      <p>This front-end project combines HTML, CSS and JavaScript to create a cinematic space interface without a heavy framework. It is designed as a beginner-friendly portfolio project that still feels polished.</p>
+    </section>
+  </main>
+
+  <footer>NovaSpace <span>•</span> 3D Space Explorer <span>•</span> Built with HTML, CSS & JavaScript</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
